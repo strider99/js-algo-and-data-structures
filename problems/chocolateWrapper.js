@@ -15,10 +15,9 @@ function buyWithMoney(amount) {
     const totalChocos = chocos + moreChocos;
     wrappers = wrappers % 3 + moreChocos;
 
-    console.log(`Chocos: ${totalChocos}`);
-    console.log(`Wrappers: ${wrappers}\n`);
+  ;
 
-    if (wrappers < 3) {
+    if (wrappers <= 2) {
       return totalChocos;
     }
 
@@ -27,3 +26,4 @@ function buyWithMoney(amount) {
 }
 
 console.log(buyWithMoney(65536)); // 294911
+// console.log(buyWithMoney(5)); // 22

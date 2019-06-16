@@ -1,0 +1,13 @@
+findwords,
+heap,
+permutations (recursive and declaritive);
+card game-
+playing cards 13,
+how many decks do you want t use,
+how many players,
+shuffle and divide,
+A, K=Q=J, 10,9,8...
+
+Any suit can get high value  at run time. calculate value of all players, all cards
+Suppose value = tie, if they have special suit, then suit wins.
+
