@@ -7,4 +7,6 @@ var obj = {
   hello: test
 }
 
-obj.hello()
+obj.hello();
+
+
