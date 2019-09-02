@@ -19,4 +19,6 @@ function twoSum(arr, sum){
 	return twopairs;
 }
 
-console.log(twoSum([1, 6, 4, 5, 3, 3], 7));
+console.time('start')
+console.log(twoSum([3, 9, 12, 20,15,6], 21));
+console.timeEnd('start')
