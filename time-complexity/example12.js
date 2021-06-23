@@ -13,4 +13,4 @@ function countPermutation(str, prefix){
   }
 }
 
-permutation('test');
+permutation('omprakash');
